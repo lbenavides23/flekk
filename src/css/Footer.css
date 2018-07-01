@@ -1,0 +1,79 @@
+
+
+
+/***********  MEDIA ADJUSTMENT  *************/
+@media screen and (max-width: 500px) {
+    .footer-display {
+      display:none;
+    }
+}
+
+
+
+/* Featurettes --------------- */
+
+
+/* Thin out the marketing headings */
+.footer-text {
+    font-weight:400;
+  font-size: 24px;
+
+}
+
+
+
+
+
+
+
+
+/*********** footer *************/
+
+footer {
+    margin-top: 105px;
+	bottom: 0;
+	color: black;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-links {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* unvisited link */
+.footer-links:link {
+    color: black;
+}
+
+
+/* visited link */
+.footer-links:visited {
+    color: black;
+}
+
+/* mouse over link */
+.footer-links:hover {
+	color:#4482EF;
+	text-decoration: none;
+}
+
+
+/* selected link */
+.footer-links:active {
+	color:#4482EF;
+}
+
+.liner {
+	font-size: 14px;
+}
+
+
+.copy-year {
+	color: black;
+	margin-top: 15px;
+	font-size: 14px;
+}

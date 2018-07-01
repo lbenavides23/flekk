@@ -1,0 +1,80 @@
+
+/***********  MEDIA ADJUSTMENT  *************/
+
+
+@media screen and (max-width: 500px) {
+
+    .jbtron-display {
+      display:none;
+      
+    }
+}
+
+
+/***********  Jumbotron Section  *************/
+
+
+.jumbotron {
+    border-radius: 0px;
+}
+
+.jb-tron {
+    
+     background: linear-gradient(rgba(0, 0, 0, 0), transparent), url("../images/home/tribeca.png");
+    min-height: 100%;
+    background-size: cover;
+    background-position: center bottom;
+      background-repeat: no-repeat;
+      height: 475px;
+      margin-bottom: 0em;
+}
+
+.jbtron-logo {
+    height: 100px;
+}
+
+
+.g1-anime {
+    position:relative;animation:animatebottom .75s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}
+}
+
+.g2-anime {
+    position:relative;animation:animatebottom 1.25s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}
+}
+
+.g3-anime  {
+    position:relative;animation:animatebottom 1.75s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}
+}
+
+.g4-anime  {
+    position:relative;animation:animatebottom 2.25s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}
+}
+
+.btn-signin {
+    margin-top: 10px;
+}
+
+
+
+
+.jb-shade{
+  font-weight: bold;
+  color: #F1F1F1 !important;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background: rgba(0, 0, 0, 0.7);
+   opacity:0.9; /* transparency */
+	filter:alpha(opacity=90); /* IE */
+}
+
+
+.my-2{
+     -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-bottom: 0.0rem !important;
+    margin-top: 0.5rem !important;
+}

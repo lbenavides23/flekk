@@ -1,0 +1,102 @@
+
+/***********  MEDIA ADJUSTMENT  *************/
+
+
+
+@media screen and (max-width: 501px) {
+
+    .onboarding-display {
+      display:initial;
+      
+    }
+}
+
+@media screen and (min-width: 501px) {
+
+    .onboarding-display {
+      display:none;
+      
+    }
+}
+
+
+
+
+/***  First Slide  ***/
+
+.login-shield {
+    margin-top: 25px;
+    margin-bottom:25px;
+    height: 125px;
+}
+
+.info-title{
+    color: #4687ef;
+  font-size: 30px;
+}
+
+.logo-login {
+    height: 100px;
+    width: 125px;
+}
+
+
+.info-swipe{
+    color: gray;
+     margin-bottom: 75px;
+}
+
+
+
+
+/*** 3 Icon Sliders ***/
+.info-images {
+    margin-top: 5px;
+    margin-bottom:25px;
+    height: 200px;
+}
+
+
+.info-subtitle{
+    color: #4687EF;
+     padding-top:5px;
+     padding-bottom: 5px;
+     font-weight: bold;
+}
+
+.log-info {
+    color: gray;
+    margin-bottom: 50px;
+}
+
+/*** Buttons ***/
+
+.btn-signin {
+    color:black;
+}
+
+.btn-width {
+    width: 175px;
+}
+
+
+
+/*** 3 Dot Indicator ****/
+
+.carousel-indicators > li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background-color: #ED575D;
+    border: 1px solid #ED575D;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    position: static;
+}
+
+.carousel-indicators {
+    margin-bottom: -30px;
+}
