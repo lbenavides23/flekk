@@ -9,10 +9,6 @@ import general from "../images/icons/general.png";
 import commerical from "../images/icons/property.png";
 import business from "../images/icons/business.png";
 
-import '../javascript/Onboarding.js';
-
-
-
 class Onboarding extends Component {
   
   

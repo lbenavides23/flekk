@@ -100,3 +100,9 @@
 .carousel-indicators {
     margin-bottom: -30px;
 }
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: gray !important;
+    border-radius: 50%;
+}

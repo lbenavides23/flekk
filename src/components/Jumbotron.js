@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Jumbotron.css';
 import logo from "../images/logo.svg";
 import { NavLink } from 'react-router-dom';
-import '../javascript/Onboarding.js';
+
 
 class Jumbotron extends React.Component {
 
