@@ -9,6 +9,7 @@ import Team from "./components/Team";
 import Press from "./components/Press";
 import Header from "./components/Header";
 import Signin from "./components/Signin";
+import Resetpw from "./components/Resetpw";
 
 import './App.css';
 
@@ -21,7 +22,8 @@ class App extends Component {
           <Route exect path="/apply" component={Apply} />
           <Route exect path="/team" component={Team} />
           <Route exect path="/press" component={Press} />
-          <Route exect path="/Signin" component={Signin} />
+          <Route exect path="/signin" component={Signin} />
+          <Route exect path="/resetpw" component={Resetpw} />
           <Route exact path="/" render={() => <Redirect to="/home" />} />
       </div>
       

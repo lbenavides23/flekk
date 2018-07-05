@@ -2,7 +2,7 @@
 /***********  MEDIA ADJUSTMENT  *************/
 
 @media screen and (min-width: 500px) {
-    .signin-div {
+    .resetpw-div {
       padding-top: 75px;
     }
     .logo-div {
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 500px) {
   
-  .signin-div {
+  .resetpw-div {
     min-height: calc(100vh);
     display: -ms-flexbox;
     display: -webkit-box;
@@ -34,57 +34,60 @@
 /***********  SECTION  *************/
 
 
-.form-signin {
+.form-resetpw {
   width: 100%;
   max-width: 330px;
   padding: 15px;
   margin: 0 auto;
 }
-.form-signin .checkbox {
-  font-weight: 400;
-}
-.form-signin .form-control {
+
+.form-resetpw {
   position: relative;
   box-sizing: border-box;
   height: auto;
   padding: 10px;
-  font-size: 16px;
   margin-top: 15px;
 }
-.form-signin .form-control:focus {
+
+.form-resetpw .form-control:focus {
   z-index: 2;
 }
-.form-signin input[type="email"] {
+
+.form-resetpw input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+
+.font-resetpw {
+  font-weight: 400;
+    font-size: 30px;
 }
 
-.reset-link {
-  color: #4583ef;
-}
-.reset-link:visited { 
-   color: #4583ef;
+.btn-return {
+    margin-top: 15px;
 }
 
-.reset-link:hover {
-  text-decoration: none;
-  cursor: pointer;
-  color: #4583ef;
+.reset-logo {
+  height: 72px;
 }
 
-.logo-div {
-  margin-top: 100px;
-}
-.signin-shield {
+.resetpw-shield {
   height: 52px;
 }
 
-.signin-logo {
+.resetpw-logo {
   height: 52px;
+}
+
+.nn {
+  
+  margin-top: 35px;
+  margin-bottom: 105px;
+}
+
+.bbx {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
 }
