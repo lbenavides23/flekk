@@ -32,27 +32,27 @@ class Onboarding extends Component {
                         <div class="carousel-item active">
                             <div class="container">
                          
-                                <div class="carousel-caption text-center">
-                                    <img class="first-slide login-shield" src={shield} alt="" />
-                                    <h4 className="lead info-title">insurance on <img src={logo} class="logo-login" alt="flekk logo"/></h4>
-                                    <p className="info-swipe lead text-muted">Swipe to learn more.</p>
-                                    <p><NavLink to="/Apply" class="btn btn-primary btn-width" role="button">Sign up</NavLink></p>
+                                <div class="carousel-caption text-center main-cont">
+                                    <NavLink to="/home" className="logo-div">
+                                        <img class="resetpw-shield" src={shield} alt="shield logo" />
+                                        <img src={logo} className="resetpw-logo" alt="logo" />
+                                    </NavLink>
+                                    <p className="info-swipe lead text-muted learn-more">Swipe to learn more.</p>
+                                    <p><NavLink to="/Apply" class="btn btn-primary btn-width" role="button">Get Insured</NavLink></p>
                                     <p><NavLink to="/Signin" class="btn btn-signin btn-light btn-width " role="button">Log in</NavLink></p>
                                 </div>
                             
                             </div>
                         </div>
-                      
                      
                         <div class="carousel-item">
                             <div class="container">
                               <div class="carousel-caption text-center">
-                                <img class="first-slide info-images" src={general} alt="" />
+                                <img class="info-images" src={general} alt="" />
                                     <h4 className="info-subtitle">Protect Your Business.</h4>
                                     <p className="log-info lead text-muted">Small business lawsuits cost between $3,000 and $150,000.</p>
-                                    
                                     <p><a class="btn btn-primary btn-width" href="/Apply" role="button">Get Insured</a></p>
-                                    <p><a class="btn btn-signin btn-width" href="/Sign In" role="button">Log in</a></p>
+                                    <p><a class="btn btn-signin btn-width" href="/signin" role="button">Log in</a></p>
                               </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ class Onboarding extends Component {
                                     <h4 className="info-subtitle">Accidents Happen, Get Insured.</h4>
                                     <p className="log-info lead text-muted">Customer slip-and-fall accidents cost about $20,000 on average.</p>
                                     <p><a class="btn btn-primary" href="/Apply" role="button">Get Insured</a></p>
-                                    <p><a class="btn btn-signin btn-width" href="/Signin" role="button">Log in</a></p>
+                                    <p><a class="btn btn-signin btn-width" href="/signin" role="button">Log in</a></p>
                               </div>
                             </div>
                         </div>
