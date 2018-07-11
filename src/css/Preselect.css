@@ -1,0 +1,157 @@
+
+
+.dib {
+    display: inline-block;
+}
+
+
+img {
+    vertical-align: none !important;
+}
+
+h5 {
+  font-weight: lighter;
+  letter-spacing: 0.25px;
+}
+
+
+
+.review-title, .review-subt {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*** WARNING MODAL ****/
+
+.exc-tri{
+    height: 75px;
+}
+
+.btn-keep {
+    margin: 5px;
+}
+
+.btn-reject{
+    margin: 5px;
+}
+
+
+
+
+/*** Policy Card ****/
+
+
+.pspolicy-card {
+    margin: 0 auto;
+    border-radius: .25rem;
+    border: 2px solid rgba(0,0,0,.08);
+    max-width: 450px;
+    border-radius: .25rem;
+}
+
+
+/*** Circle Plus ****/
+.apply-circle-plus {
+    height: 30px;
+    width: 30px;
+    margin-top: 18px;
+    margin-left:10px;
+    border-radius: 50%;
+    
+}
+
+.apply-circle-plus:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+
+.ps-icon {
+    height: 60px;
+    width: 50px;
+    margin-top:3px;
+    margin-bottom:5px;
+    border-radius: .25rem;
+}
+
+/*** Policy Title and Subtitle ****/
+
+
+.ins-title {
+font-weight: 400;
+letter-spacing: 0.75px;
+margin-top: 15px;
+font-size:12px;
+}
+
+.ins-title, .ins-subtitle {
+    max-width: 300px;
+}
+
+
+/**** Carrot Toggle Down & Up ****/
+
+.pspolicy-carrot {
+    height: 20px;
+}
+
+.carr-div {
+    background-color: #4482EF;
+    display: inline-block;
+    padding-top:18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #4482EF;
+}
+
+.carr-div:hover {
+    background-color: gray;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.ps-hidden-text {                    
+  color: #909090;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

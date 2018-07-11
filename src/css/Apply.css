@@ -1,0 +1,103 @@
+
+
+/*** General ****/
+
+.db {
+  display:block;
+}
+
+.font-light {
+    font-weight: lighter;
+}
+
+h5 {
+  font-weight: lighter;
+  letter-spacing: 0.25px;
+}
+
+
+
+
+
+/**** Form *****/
+
+.form-wrapper {
+  margin: 0 auto;
+}  
+
+.app-min-form {
+  min-height: 450px;
+}
+
+
+.section {
+  display:none;
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: center;
+  margin-top:25px;
+}
+
+.is-active {
+  display: block;
+}
+
+.btn-apply {
+  width:250px;
+}
+
+
+
+
+.input-style {
+  outline:none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 200px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+input[type=text]:focus {
+  width: 300px;}
+  
+
+
+.box-option {
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin: 5px;
+  width: 200px;
+  padding: 10px;
+}
+
+
+.box-option:hover, .box-option:focus, .box-option:active {
+  border: 1px solid #5890F1;
+  background-color: #5890F1;
+  color: white;
+}
+
+
+
+/* Input style */
+input[type=radio] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+input[type=radio]:active ~ label {
+  /*opacity: 1;*/
+}
+
+input[type=radio]:checked ~ label {
+  opacity: 1;
+  border: 1px solid #5890F1;
+  background-color: #5890F1;
+  color: white;
+}
