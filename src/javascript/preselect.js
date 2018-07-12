@@ -3,7 +3,7 @@ import $ from 'jquery';
 
 $(document).ready(function(){
 
-    
+    window.onload = function(){ 
       // Get the modal
     var modal = document.getElementById('selectModal');
     
@@ -37,7 +37,7 @@ $(document).ready(function(){
         }
     }
     
-  
+    };
 
   
 });
