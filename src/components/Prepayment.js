@@ -42,7 +42,7 @@ class Prepayment extends Component {
 
              {/*** Review and Accept Section***/}    
              
-            <div className="container mt-1 sdfsdv">
+            <div className="container mt-1">
                 <div className="row pp-accept-title mt-4">Review and Accept Insurance Policies & Payment</div>
                 <div className="row pp-accept-subtitle mt-3 mb-2">Please check the boxes to confirm:</div>
                  
@@ -67,25 +67,26 @@ class Prepayment extends Component {
 
              {/*** Fraud Section***/}    
 
-                <div className="container sdfsdv">
+                <div className="container">
                     
                     <div className="row warning-div mt-3">
                         <div className="pp-fraud-text">Fraud Warning
                         </div>
                         
-                        <div className="mt-2 mb-2 pol2">Any persion who knowingly and with intent to defraud any insurance company or other person files an application for insurance or statement of claim containing any materially false information, or conceals for the purpose of misleading, information concerning any fact material thereto, commits a fraudulent insurance act, which is a crime, and shall also be subject to a civil penalty not to exceed five thousand dollars and the stated value of the claim for each such violation
+                        <div className="mt-2 mb-2">Any persion who knowingly and with intent to defraud any insurance company or other person files an application for insurance or statement of claim containing any materially false information, or conceals for the purpose of misleading, information concerning any fact material thereto, commits a fraudulent insurance act, which is a crime, and shall also be subject to a civil penalty not to exceed five thousand dollars and the stated value of the claim for each such violation
                         </div>
                         
-                        <div className="mt-2">
+                        <div className="mtb-2">
                                 <img src={caretright} className="pp-caret-right" />
                                 <div className="pp-pdf-link"> View your application information (.pdf)</div>
                         </div>
                     </div>
                     
-             
+                </div>
+
 
             {/*** Button Section***/}    
- 
+                <div className="container">
                     <div className="row  pp-btn-div mt-5">
                         
                          <NavLink to="/Checkout" className="btn btn-success">Continue</NavLink>

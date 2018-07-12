@@ -2,12 +2,8 @@
 /***********  MEDIA ADJUSTMENT  *************/
 
 @media screen and (max-width: 500px) {
-
     .onboarding-display {
       display:initial;
-      min-height: calc(100vh);
-
-      
     }
 }
 
@@ -18,13 +14,12 @@
     }
 }
 
-.main-cont {
-    margin-top: 100px;
+
+
+.container{
+      min-height: 400px;
 }
 
-.learn-more{
-    margin-top:50px;
-}
 
 /***  First Slide  ***/
 
@@ -39,37 +34,45 @@
 }
 
 
-.info-swipe{
-    color: gray;
-     margin-bottom: 75px;
+
+/*** Icons  ***/
+
+
+.ob-shield, .info-images {
+  height: 75px;
+  display:block;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
-
-
-
-/*** 3 Icon Sliders ***/
-.info-images {
-    margin-top: 5px;
-    margin-bottom:25px;
-    height: 150px;
+.ob-logo {
+    height: 75px;
 }
 
+.ob-arrows {
+    height: 50px;
+}
 
 .info-subtitle{
     color: #4687EF;
-     padding-top:5px;
-     padding-bottom: 5px;
      font-weight: bold;
+     font-size: 22px;
 }
 
 .log-info {
-    color: gray;
-    margin-bottom: 50px;
     font-size: 16px;
-    margin-right: 18%;
-    margin-left: 18%;
 }
 
+.ob-textbox {
+     max-width: 275px;
+     margin: 0 auto;
+     height: 90px;
+}
+
+.carousel-caption {
+    height: 250px;
+}
 /*** Buttons ***/
 
 .btn-signin {
@@ -100,7 +103,7 @@
 }
 
 .carousel-indicators {
-    margin-bottom: -30px;
+    margin-bottom: -5px;
 }
 
 
