@@ -15,17 +15,7 @@
 @media screen and (max-width: 500px) {
   
   .signin-div {
-    min-height: calc(100vh);
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-align: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    padding-top:15px;
+    margin-top: 50px;
   }
 
 }
@@ -82,9 +72,17 @@
   margin-top: 100px;
 }
 .signin-shield {
-  height: 52px;
+  margin: 0 auto;
+  height: 75px;
+  display: block;
 }
 
 .signin-logo {
   height: 52px;
+}
+
+.font-signin {
+    font-weight: 400;
+    font-size: 26px;
+  
 }

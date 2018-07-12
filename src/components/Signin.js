@@ -16,11 +16,11 @@ class Signin extends React.Component {
             <div>
                 <NavLink to="/home" className="logo-div">
                     <img class="signin-shield" src={shield} alt="" />
-                    <img src={logo} className="signin-logo" alt="logo" />
+                    <img src={logo} className="signin-logo  mt-3" alt="logo" />
                 </NavLink>
                 <form class="form-signin">
                     <div class="bbx">
-                        <h1 class="h3 mb-3 font-resetpw">Please Sign-in</h1>
+                        <h1 class="font-signin mb-3 font-resetpw">Please Sign-in</h1>
                     </div>
                     <label for="inputEmail" class="sr-only">Email address</label>
                     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus />

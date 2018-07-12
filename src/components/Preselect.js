@@ -27,14 +27,14 @@ class Preselect extends Component {
                  <div className="row">
                  
                         {/** Modal **/}
-                        <div id="myModal" class="modal">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
+                        <div id="selectModal" className="ps-modal">
+                            <div className="modal-content text-center">
+                                <span className="close">&times;</span>
                                 <img src={exclamation} className="exc-tri" />
-                                <div>Warning</div>
+                                <h5 className="mt-4 mb-4 ps-warning-text">Warning</h5>
                                 <p>Based on your responses, we recommended this insurance. If you decide not to keep the policy, you are not sinured for any future claims made in this area.</p>
                                 
-                                <row>
+                                <row className="mt-2 mb-3">
                                     <button className="btn btn-primary btn-keep" id="btn-kp">Keep Policy</button>
                                     <button className="btn btn-danger btn-reject">Unselect Policy</button>
                                  </row>

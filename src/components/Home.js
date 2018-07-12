@@ -11,12 +11,14 @@ import dashboard2 from '../images/home/dashboard2.png';
 import barbershop from '../images/home/barbershop.jpg';
 import designer from '../images/home/designer.jpg';
 import handy from '../images/home/handy.jpg';
-import general from "../images/icons/general.png";
-import commerical from "../images/icons/property.png";
-import business from "../images/icons/business.png";
-import pencil from "../images/icons/pencil.png";
-import file from "../images/icons/file.png";
-import insured from "../images/icons/insured.png";
+
+import wounded from "../images/icons-flaticon/wounded.svg";
+import accident from "../images/icons-flaticon/accident.svg";
+import business from "../images/icons-flaticon/finances.svg";
+
+import pencil from "../images/icons-flaticon/020-heart-rate.svg";
+import file from "../images/icons-flaticon/008-shield.svg";
+import insured from "../images/icons-flaticon/026-transfer.svg";
 
 
 class Home extends Component {
@@ -36,19 +38,19 @@ class Home extends Component {
 
           <div class="row">
             <div class="col-lg-4 col-md-4">
-              <img src={general} className="step-ions" alt="protection" />
-              <h2 class="featurette-heading">Protection</h2>
+              <img src={wounded} className="step-ions" alt="protection" />
+              <div class="featurette-heading mt-2">Protection</div>
               <p className="lead text-muted">Small business lawsuits cost between $3,000 and $150,000.</p>
             </div>
             <div class="col-lg-4 col-md-4">
-             <img src={commerical} className="step-ions" alt="accidents" />
-              <h2 class="featurette-heading">Accidents</h2>
+             <img src={accident} className="step-ions" alt="accidents" />
+              <div class="featurette-heading mt-2">Accidents</div>
               <p className="lead text-muted">Customer slip-and-fall accidents cost about $20,000 on average.</p>
             </div>
             <div class="col-lg-4 col-md-4">
               <img src={business} className="step-ions" alt="policies"/>
-              <h2 class="featurette-heading">Policies</h2>
-              <p className="lead text-muted">Tailored insurance as your successful business grows.</p>
+              <div class="featurette-heading mt-2">Policies</div>
+              <p className="lead text-muted">Tailored insurance options as your business successfully grows.</p>
             </div>
           </div>
         </div>  
@@ -65,7 +67,7 @@ class Home extends Component {
                   <h2 class="featurette-heading simple-text">Insurance <span class="text-muted">on</span> Fleeeeekk!</h2>
                   <p class="lead text-muted">Smalll business and freelancers throughout the Big Apple are insuring their business with Flekk. So should you!.</p>
                <div>   
-                  <NavLink to="/Apply" class="btn btn-danger">Get Insured</NavLink>
+                  <NavLink to="/Apply" class="btn btn-danger btn-width">Get Insured</NavLink>
                    </div>
                 </div>
                 
@@ -89,17 +91,17 @@ class Home extends Component {
           <div class="row">
             <div class="col-lg-4  col-md-4">
               <img src={pencil} className="step-ions" alt="apply icon"/>
-              <h2 class="featurette-heading">Applying</h2>
+              <div class="featurette-heading mt-2">Applying</div>
               <p className="lead text-muted">No headaches, In seconds, your business could be insured on Flekk.</p>
             </div>
             <div class="col-lg-4  col-md-4">
              <img src={file} className="step-ions" alt="file icon" />
-              <h2 class="featurette-heading">Policy</h2>
+              <div class="featurette-heading mt-2">Policy</div>
               <p className="lead text-muted">No paper needed. Have 24-hour access to your policy on Flekk.</p>
             </div>
             <div class="col-lg-4  col-md-4">
               <img src={insured} className="step-ions" alt="insured icon" />
-              <h2 class="featurette-heading">Claims</h2>
+              <div class="featurette-heading mt-2">Claims</div>
               <p className="lead text-muted">No fax required. Submit a digital claim about the accident on Flekk.</p>
             </div>
           </div>
@@ -130,7 +132,7 @@ class Home extends Component {
                 <div class="col-md-7 text-center">
                   <h2 class="featurette-heading simple-text">Simple. <span class="text-muted">Easy.</span> Trusted.</h2>
                   <p class="lead text-muted">Flekk's features provide customers an easy platform to buy and manage their insurance needs. So should you!</p>
-                  <NavLink to="/Apply" class="btn btn-danger">Get Covered</NavLink>
+                  <NavLink to="/Apply" class="btn btn-danger btn-width">Get Covered</NavLink>
                 </div>
                 
       

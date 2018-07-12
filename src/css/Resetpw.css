@@ -15,17 +15,7 @@
 @media screen and (max-width: 500px) {
   
   .resetpw-div {
-    min-height: calc(100vh);
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-align: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    padding-top:15px;
+      margin-top: 50px;
   }
 
 }
@@ -61,7 +51,7 @@
 
 .font-resetpw {
   font-weight: 400;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .btn-return {
@@ -73,21 +63,15 @@
 }
 
 .resetpw-shield {
-  height: 52px;
+  margin: 0 auto;
+  height: 75px;
+  display: block;
 }
 
 .resetpw-logo {
   height: 52px;
 }
 
-.nn {
-  
-  margin-top: 35px;
-  margin-bottom: 105px;
-}
-
-.bbx {
-  margin-top: 25px;
-  margin-bottom: 25px;
-
+.res-padding-btn {
+  margin-top: 50px;
 }

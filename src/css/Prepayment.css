@@ -174,13 +174,32 @@
      display:inline-block;
 }
 
+.sdfsdv{
+    margin: 0 auto;
+     max-width: 450px;
+     border: 2px solid rgba(0,0,0,.08);
+     margin-top: 25px;
+     margin-bottom: 25px;
+     padding: 20px;
+}
 
-.pp-btn-div{
-    margin-left: 5px;
-    margin-right: 5px;
+.sdfsd {
+     max-width: 450px;
 }
 
 
-.sdfsdv{
-     max-width: 450px;
+.fdvdf {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.pp-btn-div {
+    margin: 0 auto;
+    max-width: 450px;
+
+}
+
+.jndcz{
+    margin: 0 auto;
 }

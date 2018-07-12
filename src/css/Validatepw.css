@@ -1,3 +1,17 @@
 .cp-title{
     display: block;
 }
+
+#psw {
+    float: right;
+}
+
+
+.sel-newpw {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sdcv{
+    text-align: left;
+}

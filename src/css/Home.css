@@ -47,14 +47,15 @@
 /*********** Steps and Icons Section
 -------------------------------------------------- */
 
-
+.btn-width {
+    width: 175px;
+}
 
 
 .step-ions {
-  width: 70px;
-  height: 70px;
-  padding: 1px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
   border-radius: 50%;
   box-shadow: 0 0 0 2px #bbb;
   
