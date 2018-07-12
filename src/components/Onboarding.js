@@ -56,7 +56,7 @@ class Onboarding extends Component {
                                 </div>
                                 <p><a class="btn btn-primary btn-width" href="/Apply" role="button">Get Insured</a></p>
                                 <p><a class="btn btn-signin btn-width" href="/signin" role="button">Log in</a></p>
-                            </div>
+                                </div>
                         </div>
                         
                         {/****** Onboarding #3 ******/}

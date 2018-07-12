@@ -17,7 +17,7 @@
 
 
 .ob-contr-div {
-      min-height: 425px;
+      min-height: 450px;
 }
 
 
@@ -54,12 +54,13 @@
 .ob-textbox {
      max-width: 275px;
      margin: 0 auto;
-     height: 90px;
+     height: 110px;
      padding-top:15px;
+     background-color:pink;
 }
 
 .carousel-caption {
-    height: 275px;
+    height: 300px;
 }
 /*** Buttons ***/
 
@@ -68,7 +69,7 @@
 }
 
 .btn-width {
-    width: 175px;
+    min-width:300px;
 }
 
 
