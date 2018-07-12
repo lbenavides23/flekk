@@ -34,7 +34,7 @@ class Onboarding extends Component {
                     
                         {/****** Onboarding #1 ******/}
                         <div class="carousel-item active">
-                            <div class="container">
+                            <div class="ob-contr-div">
                                 <div class="carousel-caption text-center main-cont">
                                     <img class="ob-shield" src={shield} alt="shield logo" />
                                     <img src={logo} className="ob-logo" alt="logo" />
@@ -43,25 +43,10 @@ class Onboarding extends Component {
                                 <p><NavLink to="/Signin" class="btn btn-signin btn-light btn-width " role="button">Log in</NavLink></p>
                             </div>
                         </div>
-                     
+
                         {/****** Onboarding #2 ******/}
                         <div class="carousel-item">
-                            <div class="container">
-                                <div class="carousel-caption text-center">
-                                    <img class="info-images" src={wounded} alt="" />
-                                    <div className="row ob-textbox">
-                                        <h4 className="info-subtitle col-lg-12">Protect Your Business</h4>
-                                        <p className="log-info lead text-muted col-lg-12">Small business lawsuits cost between $3,000 and $150,000.</p>
-                                    </div>
-                                </div>
-                                <p><a class="btn btn-primary btn-width" href="/Apply" role="button">Get Insured</a></p>
-                                <p><a class="btn btn-signin btn-width" href="/signin" role="button">Log in</a></p>
-                            </div>
-                        </div>
-
-                        {/****** Onboarding #3 ******/}
-                        <div class="carousel-item">
-                            <div class="container">
+                            <div class="ob-contr-div">
                                 <div class="carousel-caption text-center">
                                     <img class="info-images" src={accident} alt="" />
                                     <div className="row ob-textbox">
@@ -74,14 +59,29 @@ class Onboarding extends Component {
                             </div>
                         </div>
                         
+                        {/****** Onboarding #3 ******/}
+                        <div class="carousel-item">
+                            <div class="ob-contr-div">
+                                <div class="carousel-caption text-center">
+                                    <img class="info-images" src={wounded} alt="" />
+                                    <div className="row ob-textbox">
+                                        <h4 className="info-subtitle col-lg-12">Protect Your Business</h4>
+                                        <p className="log-info lead text-muted col-lg-12">Small business lawsuits cost between $3,000 and $150,000.</p>
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-primary btn-width" href="/Apply" role="button">Get Insured</a></p>
+                                <p><a class="btn btn-signin btn-width" href="/signin" role="button">Log in</a></p>
+                            </div>
+                        </div>
+                        
                         {/****** Onboarding #4 ******/}
                         <div class="carousel-item">
-                            <div class="container">
+                            <div class="ob-contr-div">
                                 <div class="carousel-caption text-center">
                                     <img class="info-images" src={business} alt="" />
                                     <div className="row ob-textbox">
                                         <h4 className="info-subtitle col-lg-12">Business Owner's Policy</h4>
-                                        <p className="log-info lead text-muted col-lg-12">Purchase a insurance package and focus on growing your business.</p>
+                                        <p className="log-info lead text-muted col-lg-12">A policy that allows you to focus on growing your business.</p>
                                     </div>
                                 </div>
                                 <p><a class="btn btn-primary btn-width" href="/Apply" role="button">Get Insured</a></p>

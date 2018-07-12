@@ -16,21 +16,9 @@
 
 
 
-.container{
-      min-height: 400px;
-}
-
-
-/***  First Slide  ***/
-
-.info-title{
-    color: #4687ef;
-    font-size: 30px;
-}
-
-.logo-login {
-    height: 100px;
-    width: 125px;
+.ob-contr-div {
+      min-height: 425px;
+      background-color: green;
 }
 
 
@@ -42,7 +30,7 @@
   height: 75px;
   display:block;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: 20px;
 }
 
@@ -57,7 +45,7 @@
 .info-subtitle{
     color: #4687EF;
      font-weight: bold;
-     font-size: 22px;
+     font-size: 20px;
 }
 
 .log-info {
@@ -68,10 +56,12 @@
      max-width: 275px;
      margin: 0 auto;
      height: 90px;
+     padding-top:15px;
 }
 
 .carousel-caption {
-    height: 250px;
+    height: 275px;
+    background-color: pink;
 }
 /*** Buttons ***/
 
