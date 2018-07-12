@@ -25,7 +25,7 @@ class Resetpw extends React.Component {
                         <label for="inputEmail" class="sr-only return-email">Email address</label>
                         <input type="email" id="inputEmail" class="form-control return-emai" placeholder="Email address" required autofocus />
                     </div>
-                  <button class="btn btn-lg btn-primary btn-block btn-return res-padding-btn" type="submit">Reset Password</button>
+                  <button class="btn btn-primary btn-block btn-return res-padding-btn" type="submit">Reset Password</button>
                 </form>
             </div>
       </div>

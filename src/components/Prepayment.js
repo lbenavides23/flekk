@@ -88,7 +88,7 @@ class Prepayment extends Component {
                         <div className="pp-pdf-link"> View your application information (.pdf)</div>
                     </div>
                     <div className="row  pp-btn-div">
-                         <NavLink to="/Checkout" className="btn btn-success jndcz">Continue</NavLink>
+                         <NavLink to="/Checkout" className="btn btn-primary jndcz">Continue</NavLink>
                     </div>
                 </div>
                     

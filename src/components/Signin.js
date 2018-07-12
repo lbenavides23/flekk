@@ -29,7 +29,7 @@ class Signin extends React.Component {
                   <div class="mt-4 mb-4">
                       <NavLink to="/Resetpw" class="reset-link">Forgot password?</NavLink>
                   </div>
-                  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                  <button class="btn btn-primary btn-block" type="submit">Sign in</button>
                   <p class="mt-5 mb-3 text-muted">Flekk &copy; 2018</p>
                 </form>
             </div>
