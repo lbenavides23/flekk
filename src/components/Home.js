@@ -64,8 +64,8 @@ class Home extends Component {
                 
                 
                 <div class="col-md-7 text-center">
-                  <h2 class="featurette-heading simple-text">Insurance <span class="text-muted">on</span> Fleeeeekk!</h2>
-                  <p class="lead text-muted">Smalll business and freelancers throughout the Big Apple are insuring their business with Flekk. So should you!.</p>
+                  <h2 class="featurette-heading simple-text">Insurance on Fleeeeekk!</h2>
+                  <p class="lead text-muted">Small business and freelancers throughout the Big Apple are insuring their business with Flekk. So should you!.</p>
                <div>   
                   <NavLink to="/Apply" class="btn btn-danger btn-width">Get Insured</NavLink>
                    </div>
@@ -130,7 +130,7 @@ class Home extends Component {
               
                 
                 <div class="col-md-7 text-center">
-                  <h2 class="featurette-heading simple-text">Simple. <span class="text-muted">Easy.</span> Trusted.</h2>
+                  <h2 class="featurette-heading simple-text">Simple. Easy. Trusted.</h2>
                   <p class="lead text-muted">Flekk's features provide customers an easy platform to buy and manage their insurance needs. So should you!</p>
                   <NavLink to="/Apply" class="btn btn-danger btn-width">Get Covered</NavLink>
                 </div>
@@ -147,7 +147,7 @@ class Home extends Component {
           
           <div class="container marketing">
               <div class="col-md-12 text-center">
-                 <h2 class="featurette-heading simple-text">Flexible <span class="text-muted">Tailored.</span> Reliable.</h2>
+                 <h2 class="featurette-heading simple-text">Flexible. Tailored. Reliable.</h2>
                   <p class="lead text-muted">commerical insurance designed for your business needs</p>
                 
                 

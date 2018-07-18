@@ -27,7 +27,15 @@ class Apply extends Component {
                                 <div className="app-min-form">
                                     <h2 className="font-light">Let's get started</h2>
                                     <h5 className="font-light mt-4">What is your emaill address?</h5>
-                                    <input type="text" name="email" id="email" className="mt-4 mb-4 input-style"  autocomplete="nope" ></input>
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                                        id="email"
+                                        className="mt-4 mb-4 input-style"
+                                        autocomplete="nope"
+                                        >
+                                    </input>
                                 </div>
                                 <div className="mt-1">
                                   <button className="btn btn-primary btn-apply">Continue</button>
@@ -43,24 +51,21 @@ class Apply extends Component {
                                 
                                    <p>
                                         <input type="radio" name="state" id="ny"/>
-                                        <label for="ny" className="box-option">New York</label>
+                                        <label for="ny" className="box-option btn-apply">New York</label>
                                    </p>
                                    <p>
                                         <input type="radio" name="state" id="nj"/>
-                                        <label for="nj" className="box-option">New Jersey</label>
+                                        <label for="nj" className="box-option btn-apply">New Jersey</label>
                                    </p>
                                    <p>
                                         <input type="radio" name="state" id="ct"/>
-                                        <label for="ct" className="box-option">Connecticut</label>
+                                        <label for="ct" className="box-option btn-apply">Connecticut</label>
                                    </p>
                                    <p>
                                         <input type="radio" name="state" id="os"/>
-                                        <label for="os" className="box-option">Other State</label>
+                                        <label for="os" className="box-option btn-apply">Other State</label>
                                    </p>
                                  </div>
-                                <div className="mt-1">
-                                  <button className="btn btn-primary btn-apply">Continue</button>
-                                </div>
                             </fieldset>
                               
                               
@@ -136,16 +141,13 @@ class Apply extends Component {
                                           
                                             <p>
                                                 <input type="radio" name="location" id="rent"/>
-                                                <label for="rent" className="box-option">Rent</label>
+                                                <label for="rent" className="box-option btn-apply">Rent</label>
                                            </p>
                                            <p>
                                                 <input type="radio" name="location" id="own"/>
-                                                <label for="own" className="box-option">Own</label>
+                                                <label for="own" className="box-option btn-apply">Own</label>
                                            </p>
                                     </div>
-                                <div className="mt-1">
-                                  <button className="btn btn-primary btn-apply">Continue</button>
-                                </div>
                               </fieldset>
                             
                               
@@ -157,27 +159,24 @@ class Apply extends Component {
                                           <h5 className="mb-4">What best describes your business's ownership structure? </h5>
                                             <p>
                                                 <input type="radio" name="structure" id="indy"/>
-                                                <label for="indy" className="box-option">Individual</label>
+                                                <label for="indy" className="box-option btn-apply">Individual</label>
                                            </p>
                                            <p>
                                                 <input type="radio" name="structure" id="ptner"/>
-                                                <label for="ptner" className="box-option">Partnership</label>
+                                                <label for="ptner" className="box-option btn-apply">Partnership</label>
                                            </p>
                                            <p>
                                                 <input type="radio" name="structure" id="lt-ptner"/>
-                                                <label for="lt-ptner" className="box-option">Limited Partnership</label>
+                                                <label for="lt-ptner" className="box-option btn-apply">Limited Partnership</label>
                                            </p>
                                            <p>
                                                 <input type="radio" name="structure" id="llc"/>
-                                                <label for="llc" className="box-option">Limited Liability (llc)</label>
+                                                <label for="llc" className="box-option btn-apply">Limited Liability (llc)</label>
                                            </p>
                                            <p>
                                                 <input type="radio" name="structure" id="c-profit"/>
-                                                <label for="c-profit" className="box-option">Corporation (fp)</label>
+                                                <label for="c-profit" className="box-option btn-apply">Corporation (fp)</label>
                                            </p>
-                                </div>
-                                <div className="mt-1">
-                                  <button className="btn btn-primary btn-apply">Continue</button>
                                 </div>
                               </fieldset>
                             
@@ -192,15 +191,12 @@ class Apply extends Component {
                                       
                                         <p>
                                             <input type="radio" name="invty" id="i-yes"/>
-                                            <label for="i-yes" className="box-option">Yes</label>
+                                            <label for="i-yes" className="box-option btn-apply">Yes</label>
                                        </p>
                                        <p>
                                             <input type="radio" name="invty" id="i-no"/>
-                                            <label for="i-no" className="box-option">No</label>
+                                            <label for="i-no" className="box-option btn-apply">No</label>
                                        </p>
-                                </div>
-                                <div className="mt-1">
-                                  <button className="btn btn-primary btn-apply">Continue</button>
                                 </div>
                               </fieldset>
                             
@@ -214,15 +210,12 @@ class Apply extends Component {
                                       
                                         <p>
                                             <input type="radio" name="ee" id="ee-yes"/>
-                                            <label for="ee-yes" className="box-option">Yes</label>
+                                            <label for="ee-yes" className="box-option btn-apply">Yes</label>
                                        </p>
                                        <p>
                                             <input type="radio" name="ee" id="ee-no"/>
-                                            <label for="ee-no" className="box-option">No</label>
+                                            <label for="ee-no" className="box-option btn-apply">No</label>
                                        </p>
-                                </div>
-                                <div className="mt-1">
-                                  <button className="btn btn-primary btn-apply">Continue</button>
                                 </div>
                               </fieldset>
                             
@@ -258,7 +251,7 @@ class Apply extends Component {
                                    </p>
                                 </div>
                                 <div className="mt-1">
-                                    <NavLink to="/Preselect" className="btn btn-primary btn-apply">Continue</NavLink>
+                                   <NavLink to="/Preselect" className="btn btn-primary btn-apply">Submit</NavLink>
                                 </div>
                       </fieldset>
                       
